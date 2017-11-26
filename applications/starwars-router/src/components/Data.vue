@@ -38,7 +38,7 @@ import Item from './Item.vue';
 						method: 'GET'					
 					})
 					.then(response => response.json())
-					.then(json => this.items = json)
+					.then(json => this.items.push(json))
 				
 
 				}
