@@ -5,7 +5,7 @@
 		<Character 
 			v-for="(name,index) in initials_id"	
 			:id="1"
-			key="index"
+			:key="index"
 		/>
 			
 		</div>
